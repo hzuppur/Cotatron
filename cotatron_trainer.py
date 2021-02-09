@@ -48,7 +48,6 @@ def main(args):
         progress_bar_refresh_rate=1,
         max_epochs=10000,
     )
-    print(model)
     trainer.fit(model)
 
 
