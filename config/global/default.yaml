@@ -5,7 +5,7 @@ data:
   train_dir: '/gpfs/hpc/home/zuppur/cotatron/data/'     # root path of data. The first elements of each metadata lines should be a relative path with respect to this.
   train_meta: '/gpfs/hpc/home/zuppur/cotatron/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_shorterthan10s_atleast5min_train_filelist_22k.txt' # path of training data's metadata
   val_dir: '/gpfs/hpc/home/zuppur/cotatron/data/'       # same as train_dir.
-  val_meta: '/gpfs/hpc/home/zuppur/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_atleast5min_val_filelist_22k.txt' # path of validation data's metadata
+  val_meta: '/gpfs/hpc/home/zuppur/cotatron/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_atleast5min_val_filelist_22k.txt' # path of validation data's metadata
   cmudict_path: '/gpfs/hpc/home/zuppur/datasets/cmudict-0.7b_fix.txt'  # path of cmudict-0.7b_fix.txt
 ###########################
 audio: # WARNING! This cannot be changed unlees you're planning to train the MelGAN vocoder by yourself.
