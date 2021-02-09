@@ -6,7 +6,7 @@ data:
   train_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_shorterthan10s_atleast5min_train_filelist_22k.txt' # path of training data's metadata
   val_dir: '/gpfs/space/home/zuppur/cotatron/data/'       # same as train_dir.
   val_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_atleast5min_val_filelist_22k.txt' # path of validation data's metadata
-  cmudict_path: '/gpfs/space/home/zuppur/datasets/cmudict-0.7b_fix.txt'  # path of cmudict-0.7b_fix.txt
+  cmudict_path: '/gpfs/space/home/zuppur/cotatron/datasets/cmudict-0.7b_fix.txt'  # path of cmudict-0.7b_fix.txt
 ###########################
 audio: # WARNING! This cannot be changed unlees you're planning to train the MelGAN vocoder by yourself.
   n_mel_channels: 80
