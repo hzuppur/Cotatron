@@ -14,5 +14,5 @@ train:
     rate: 0.5
 ###########################
 log:
-  chkpt_dir: 'chkpt/cota'
-  log_dir: 'logs/cota'
+  chkpt_dir: '/gpfs/space/home/zuppur/cotatron/chkpt/cota'
+  log_dir: '/gpfs/space/home/zuppur/cotatron/logs/cota'
