@@ -1,92 +1,0 @@
-Validation sanity check:   0%|          | 0/1 [00:00<?, ?it/s]====================
-Namespace(checkpoint_path=None, config=['config/global/default.yaml', 'config/cota/default.yaml'], fast_dev_run=False, gpus='0', name='my_runname', save_top_k=-1, val_epoch=1)
-====================
-Validation sanity check: 100%|██████████| 1/1 [00:26<00:00, 26.95s/it]                                                                      0it [00:00, ?it/s]  0%|          | 0/314 [00:00<?, ?it/s]Epoch 1:   0%|          | 0/314 [00:00<?, ?it/s]Epoch 1:   0%|          | 1/314 [04:28<23:21:05, 268.58s/it]Epoch 1:   0%|          | 1/314 [04:28<23:21:05, 268.58s/it, loss=9.442, v_num=3]Epoch 1:   1%|          | 2/314 [04:36<9:58:46, 115.15s/it, loss=9.442, v_num=3] Epoch 1:   1%|          | 2/314 [04:36<9:58:46, 115.15s/it, loss=9.136, v_num=3]Epoch 1:   1%|          | 3/314 [04:44<5:43:55, 66.35s/it, loss=9.136, v_num=3] Epoch 1:   1%|          | 3/314 [04:44<5:43:55, 66.35s/it, loss=8.639, v_num=3]Epoch 1:   1%|▏         | 4/314 [04:55<3:48:48, 44.29s/it, loss=8.639, v_num=3]Epoch 1:   1%|▏         | 4/314 [04:55<3:48:48, 44.29s/it, loss=8.244, v_num=3]Epoch 1:   2%|▏         | 5/314 [05:06<2:47:00, 32.43s/it, loss=8.244, v_num=3]Epoch 1:   2%|▏         | 5/314 [05:06<2:47:00, 32.43s/it, loss=7.948, v_num=3]Epoch 1:   2%|▏         | 6/314 [05:14<2:03:21, 24.03s/it, loss=7.948, v_num=3]Epoch 1:   2%|▏         | 6/314 [05:14<2:03:21, 24.03s/it, loss=7.696, v_num=3]Epoch 1:   2%|▏         | 7/314 [05:22<1:35:53, 18.74s/it, loss=7.696, v_num=3]Epoch 1:   2%|▏         | 7/314 [05:22<1:35:53, 18.74s/it, loss=7.502, v_num=3]Epoch 1:   3%|▎         | 8/314 [05:29<1:17:47, 15.25s/it, loss=7.502, v_num=3]Epoch 1:   3%|▎         | 8/314 [05:29<1:17:47, 15.25s/it, loss=7.325, v_num=3]Epoch 1:   3%|▎         | 9/314 [05:37<1:05:07, 12.81s/it, loss=7.325, v_num=3]Epoch 1:   3%|▎         | 9/314 [05:37<1:05:07, 12.81s/it, loss=7.168, v_num=3]Epoch 1:   3%|▎         | 10/314 [05:44<56:46, 11.21s/it, loss=7.168, v_num=3] Epoch 1:   3%|▎         | 10/314 [05:44<56:46, 11.21s/it, loss=7.029, v_num=3]Epoch 1:   4%|▎         | 11/314 [05:54<53:54, 10.68s/it, loss=7.029, v_num=3]Epoch 1:   4%|▎         | 11/314 [05:54<53:54, 10.68s/it, loss=6.908, v_num=3]Epoch 1:   4%|▍         | 12/314 [06:02<49:07,  9.76s/it, loss=6.908, v_num=3]Epoch 1:   4%|▍         | 12/314 [06:02<49:07,  9.76s/it, loss=6.796, v_num=3]Epoch 1:   4%|▍         | 13/314 [06:10<47:15,  9.42s/it, loss=6.796, v_num=3]Epoch 1:   4%|▍         | 13/314 [06:10<47:15,  9.42s/it, loss=6.698, v_num=3]Epoch 1:   4%|▍         | 14/314 [06:18<43:59,  8.80s/it, loss=6.698, v_num=3]Epoch 1:   4%|▍         | 14/314 [06:18<43:59,  8.80s/it, loss=6.622, v_num=3]Epoch 1:   5%|▍         | 15/314 [06:24<39:38,  7.95s/it, loss=6.622, v_num=3]Epoch 1:   5%|▍         | 15/314 [06:24<39:38,  7.95s/it, loss=6.552, v_num=3]Epoch 1:   5%|▌         | 16/314 [06:31<38:57,  7.84s/it, loss=6.552, v_num=3]Epoch 1:   5%|▌         | 16/314 [06:31<38:57,  7.84s/it, loss=6.493, v_num=3]Epoch 1:   5%|▌         | 17/314 [06:40<40:52,  8.26s/it, loss=6.493, v_num=3]Epoch 1:   5%|▌         | 17/314 [06:40<40:52,  8.26s/it, loss=6.440, v_num=3]Epoch 1:   6%|▌         | 18/314 [06:49<41:16,  8.37s/it, loss=6.440, v_num=3]Epoch 1:   6%|▌         | 18/314 [06:49<41:16,  8.37s/it, loss=6.394, v_num=3]Epoch 1:   6%|▌         | 19/314 [06:58<42:26,  8.63s/it, loss=6.394, v_num=3]Epoch 1:   6%|▌         | 19/314 [06:58<42:26,  8.63s/it, loss=6.356, v_num=3]Epoch 1:   6%|▋         | 20/314 [07:07<42:27,  8.67s/it, loss=6.356, v_num=3]Epoch 1:   6%|▋         | 20/314 [07:07<42:27,  8.67s/it, loss=6.316, v_num=3]Epoch 1:   7%|▋         | 21/314 [07:15<41:52,  8.58s/it, loss=6.316, v_num=3]Epoch 1:   7%|▋         | 21/314 [07:15<41:52,  8.58s/it, loss=6.280, v_num=3]Epoch 1:   7%|▋         | 22/314 [07:23<40:33,  8.34s/it, loss=6.280, v_num=3]Epoch 1:   7%|▋         | 22/314 [07:23<40:33,  8.34s/it, loss=6.248, v_num=3]Epoch 1:   7%|▋         | 23/314 [07:33<42:06,  8.68s/it, loss=6.248, v_num=3]Epoch 1:   7%|▋         | 23/314 [07:33<42:06,  8.68s/it, loss=6.218, v_num=3]Epoch 1:   8%|▊         | 24/314 [07:41<40:53,  8.46s/it, loss=6.218, v_num=3]Epoch 1:   8%|▊         | 24/314 [07:41<40:53,  8.46s/it, loss=6.189, v_num=3]Epoch 1:   8%|▊         | 25/314 [07:49<40:45,  8.46s/it, loss=6.189, v_num=3]Epoch 1:   8%|▊         | 25/314 [07:49<40:45,  8.46s/it, loss=6.164, v_num=3]Epoch 1:   8%|▊         | 26/314 [07:57<39:33,  8.24s/it, loss=6.164, v_num=3]Epoch 1:   8%|▊         | 26/314 [07:57<39:33,  8.24s/it, loss=6.140, v_num=3]Epoch 1:   9%|▊         | 27/314 [08:05<39:45,  8.31s/it, loss=6.140, v_num=3]Epoch 1:   9%|▊         | 27/314 [08:05<39:45,  8.31s/it, loss=6.118, v_num=3]Epoch 1:   9%|▉         | 28/314 [08:14<39:39,  8.32s/it, loss=6.118, v_num=3]Epoch 1:   9%|▉         | 28/314 [08:14<39:39,  8.32s/it, loss=6.099, v_num=3]Epoch 1:   9%|▉         | 29/314 [08:22<39:54,  8.40s/it, loss=6.099, v_num=3]Epoch 1:   9%|▉         | 29/314 [08:22<39:54,  8.40s/it, loss=6.076, v_num=3]Epoch 1:  10%|▉         | 30/314 [08:30<39:22,  8.32s/it, loss=6.076, v_num=3]Epoch 1:  10%|▉         | 30/314 [08:30<39:22,  8.32s/it, loss=6.060, v_num=3]Epoch 1:  10%|▉         | 31/314 [08:38<39:00,  8.27s/it, loss=6.060, v_num=3]Epoch 1:  10%|▉         | 31/314 [08:38<39:00,  8.27s/it, loss=6.044, v_num=3]Epoch 1:  10%|█         | 32/314 [08:47<40:00,  8.51s/it, loss=6.044, v_num=3]Epoch 1:  10%|█         | 32/314 [08:47<40:00,  8.51s/it, loss=6.028, v_num=3]Epoch 1:  11%|█         | 33/314 [08:56<39:27,  8.42s/it, loss=6.028, v_num=3]Epoch 1:  11%|█         | 33/314 [08:56<39:27,  8.42s/it, loss=6.012, v_num=3]Epoch 1:  11%|█         | 34/314 [09:04<38:25,  8.24s/it, loss=6.012, v_num=3]Epoch 1:  11%|█         | 34/314 [09:04<38:25,  8.24s/it, loss=5.999, v_num=3]Epoch 1:  11%|█         | 35/314 [09:10<35:48,  7.70s/it, loss=5.999, v_num=3]Epoch 1:  11%|█         | 35/314 [09:10<35:48,  7.70s/it, loss=5.986, v_num=3]Epoch 1:  11%|█▏        | 36/314 [09:21<40:14,  8.68s/it, loss=5.986, v_num=3]Epoch 1:  11%|█▏        | 36/314 [09:21<40:14,  8.68s/it, loss=5.970, v_num=3]Epoch 1:  12%|█▏        | 37/314 [09:29<38:54,  8.43s/it, loss=5.970, v_num=3]Epoch 1:  12%|█▏        | 37/314 [09:29<38:54,  8.43s/it, loss=5.954, v_num=3]Epoch 1:  12%|█▏        | 38/314 [09:38<39:43,  8.64s/it, loss=5.954, v_num=3]Epoch 1:  12%|█▏        | 38/314 [09:38<39:43,  8.64s/it, loss=5.943, v_num=3]Epoch 1:  12%|█▏        | 39/314 [09:45<37:05,  8.09s/it, loss=5.943, v_num=3]Epoch 1:  12%|█▏        | 39/314 [09:45<37:05,  8.09s/it, loss=5.933, v_num=3]Epoch 1:  13%|█▎        | 40/314 [09:53<37:30,  8.21s/it, loss=5.933, v_num=3]Epoch 1:  13%|█▎        | 40/314 [09:53<37:30,  8.21s/it, loss=5.918, v_num=3]Epoch 1:  13%|█▎        | 41/314 [10:05<41:45,  9.18s/it, loss=5.918, v_num=3]Epoch 1:  13%|█▎        | 41/314 [10:05<41:45,  9.18s/it, loss=5.907, v_num=3]Epoch 1:  13%|█▎        | 42/314 [10:14<41:54,  9.24s/it, loss=5.907, v_num=3]Epoch 1:  13%|█▎        | 42/314 [10:14<41:54,  9.24s/it, loss=5.896, v_num=3]Epoch 1:  14%|█▎        | 43/314 [10:23<41:37,  9.21s/it, loss=5.896, v_num=3]Epoch 1:  14%|█▎        | 43/314 [10:23<41:37,  9.21s/it, loss=5.885, v_num=3]Epoch 1:  14%|█▍        | 44/314 [10:30<38:24,  8.53s/it, loss=5.885, v_num=3]Epoch 1:  14%|█▍        | 44/314 [10:30<38:24,  8.53s/it, loss=5.875, v_num=3]Epoch 1:  14%|█▍        | 45/314 [10:41<40:54,  9.12s/it, loss=5.875, v_num=3]Epoch 1:  14%|█▍        | 45/314 [10:41<40:54,  9.12s/it, loss=5.867, v_num=3]Traceback (most recent call last):
-  File "cotatron_trainer.py", line 75, in <module>
-    main(args)
-  File "cotatron_trainer.py", line 54, in main
-    trainer.fit(model)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 582, in fit
-    self.ddp_train(task, model)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/pytorch_lightning/trainer/distrib_data_parallel.py", line 342, in ddp_train
-    self.run_pretrain_routine(model)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 830, in run_pretrain_routine
-    self.train()
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/pytorch_lightning/trainer/training_loop.py", line 343, in train
-    self.run_training_epoch()
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/pytorch_lightning/trainer/training_loop.py", line 398, in run_training_epoch
-    for batch_idx, batch in self.profiler.profile_iterable(
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/pytorch_lightning/profiler/profiler.py", line 55, in profile_iterable
-    value = next(iterator)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
-    data = self._next_data()
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 838, in _next_data
-    return self._process_data(data)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 881, in _process_data
-    data.reraise()
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/_utils.py", line 394, in reraise
-    raise self.exc_type(msg)
-EOFError: Caught EOFError in DataLoader worker process 13.
-Original Traceback (most recent call last):
-  File "/gpfs/space/home/zuppur/cotatron/datasets/text_mel_dataset.py", line 64, in get_mel
-    mel = torch.load(melpath, map_location='cpu')
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/serialization.py", line 525, in load
-    with _open_file_like(f, 'rb') as opened_file:
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/serialization.py", line 212, in _open_file_like
-    return _open_file(name_or_buffer, mode)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/serialization.py", line 193, in __init__
-    super(_open_file, self).__init__(open(name, mode))
-FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/space/home/zuppur/cotatron/data/LibriTTS/train-clean-100/4160/11550/4160_11550_000047_000004-22k.wav.pt'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/librosa/core/audio.py", line 146, in load
-    with sf.SoundFile(path) as sf_desc:
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/soundfile.py", line 629, in __init__
-    self._file = self._open(file, mode_int, closefd)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/soundfile.py", line 1183, in _open
-    _error_check(_snd.sf_error(file_ptr),
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/soundfile.py", line 1357, in _error_check
-    raise RuntimeError(prefix + _ffi.string(err_str).decode('utf-8', 'replace'))
-RuntimeError: Error opening '/gpfs/space/home/zuppur/cotatron/data/LibriTTS/train-clean-100/4160/11550/4160_11550_000047_000004-22k.wav': Format not recognised.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 178, in _worker_loop
-    data = fetcher.fetch(index)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
-    data = [self.dataset[idx] for idx in possibly_batched_index]
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
-    data = [self.dataset[idx] for idx in possibly_batched_index]
-  File "/gpfs/space/home/zuppur/cotatron/datasets/text_mel_dataset.py", line 56, in __getitem__
-    mel = self.get_mel(audiopath)
-  File "/gpfs/space/home/zuppur/cotatron/datasets/text_mel_dataset.py", line 69, in get_mel
-    wav, sr = librosa.load(audiopath, sr=None, mono=True)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/librosa/core/audio.py", line 163, in load
-    y, sr_native = __audioread_load(path, offset, duration, dtype)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/librosa/core/audio.py", line 187, in __audioread_load
-    with audioread.audio_open(path) as input_file:
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/audioread/__init__.py", line 111, in audio_open
-    return BackendClass(path)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/audioread/rawread.py", line 65, in __init__
-    self._file = aifc.open(self._fh)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/aifc.py", line 917, in open
-    return Aifc_read(f)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/aifc.py", line 358, in __init__
-    self.initfp(f)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/aifc.py", line 314, in initfp
-    chunk = Chunk(file)
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/chunk.py", line 63, in __init__
-    raise EOFError
-EOFError
-
-Exception ignored in: <function tqdm.__del__ at 0x2b6ca4158550>
-Traceback (most recent call last):
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/tqdm/std.py", line 1134, in __del__
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/tqdm/std.py", line 1281, in close
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/tqdm/std.py", line 1467, in display
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/tqdm/std.py", line 1137, in __repr__
-  File "/gpfs/space/home/zuppur/.conda/envs/cotatron_env/lib/python3.8/site-packages/tqdm/std.py", line 1424, in format_dict
-TypeError: cannot unpack non-iterable NoneType object
