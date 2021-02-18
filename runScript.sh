@@ -2,6 +2,7 @@
 
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:tesla:1
+#SBATCH --nodelist= [falcon4]  
 
 #The name of the job is test_job
 #SBATCH -J cotatron
