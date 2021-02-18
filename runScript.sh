@@ -3,7 +3,6 @@
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:tesla:1
 
-#The name of the job is test_job
 #SBATCH -J cotatron
 
 #The job requires 1 compute node
@@ -22,4 +21,4 @@ source /storage/software/python-3.6.3/miniconda3/etc/profile.d/conda.sh
 
 conda activate cotatron_env
 
-python cotatron_trainer.py -c config/global/default.yaml config/cota/default.yaml -g 0 -n cotatron_trained -f True
+python cotatron_trainer.py -c config/global/default.yaml config/cota/default.yaml -g 0 -n cotatron_trained
