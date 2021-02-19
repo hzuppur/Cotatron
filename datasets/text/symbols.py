@@ -12,6 +12,7 @@ _sos = '<s>'
 _punc = '!\'(),-.:~? '
 
 _eng_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+_est_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÕÖÄabcdefghijklmnopqrstuvwxyzöäüõ'
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
@@ -31,3 +32,4 @@ _cmu_characters = ['@' + s for s in _cmu_characters]
 # Export all symbols:
 eng_symbols = [_pad, _eos] + list(_eng_characters) + list(_punc) + _arpabet + [_sos]
 cmu_symbols = [_pad, _eos] + list(_eng_characters) + list(_punc) + _cmu_characters + [_sos]
+est_symbols = [_pad, _eos] + list(_eng_characters) + list(_punc) + [_sos]

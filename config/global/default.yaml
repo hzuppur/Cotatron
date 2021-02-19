@@ -1,6 +1,6 @@
 data:
-  lang: 'cmu'
-  text_cleaners: ['transliteration_cleaners']
+  lang: 'et'
+  text_cleaners: ['basic_cleaners']
   speakers: ['ERR-uudised-Tonu_Karjatse', 'UT-uudised-Mari', 'ERR-uudised-Tarmo_Maiberg', 'EKI-yksiklaused-Liivika', 'ERR-uudised-Vallo_Kelmsaar', 'ERR-uudised-Kai_Vare', 'UT-uudised-Kalev', 'EKI-yksiklaused-Kylli', 'EKI-ilukirjandus-Kylli', 'EKI-yksiklaused-Kersti', 'ERR-uudised-Birgit_Itse', 'EKI-ilukirjandus-Meelis', 'ERR-uudised-Indrek_Kiisler', 'UT-uudised-Albert', 'ERR-uudised-Meelis_Kompus', 'EKI-yksiklaused-Meelis', 'UT-uudised-Vesta'] # list of speaker ids (last elements of each metadata line)
   train_dir: '/gpfs/space/home/zuppur/cotatron/data/preprocessed_v2/'     # root path of data. The first elements of each metadata lines should be a relative path with respect to this.
   train_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/estonian_metadata.txt' # path of training data's metadata

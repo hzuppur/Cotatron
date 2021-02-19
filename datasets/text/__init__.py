@@ -1,7 +1,7 @@
 """ modified from https://github.com/keithito/tacotron """
 import re
 from . import cleaners
-from .symbols import eng_symbols, cmu_symbols
+from .symbols import eng_symbols, cmu_symbols, est_symbols
 
 
 class Language():
@@ -13,6 +13,9 @@ class Language():
     if lang == 'kor':
       available_cleaners = ['korean_cleaners']
       symbols = kor_symbols
+    elif lang == 'et':
+      available_cleaners = ['basic_cleaners']
+      symbols = est_symbols
     elif lang in ('eng', 'eng2'):
       available_cleaners = ['basic_cleaners',
                             'transliteration_cleaners',
