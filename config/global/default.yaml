@@ -1,11 +1,11 @@
 data:
   lang: 'cmu'
   text_cleaners: ['transliteration_cleaners']
-  speakers: ['ERR-uudised-Tonu_Karjatse', 'UT-uudised-Mari', 'ERR-uudised-Tarmo_Maiberg', 'EKI-yksiklaused-Liivika', 'ERR-uudised-Vallo_Kelmsaar', 'ERR-uudised-Kai_Vare', 'UT-uudised-Kalev', 'EKI-yksiklaused-Kylli', 'EKI-ilukirjandus-Kylli', 'EKI-yksiklaused-Kersti', 'ERR-uudised-Birgit_Itse', 'EKI-ilukirjandus-Meelis', 'ERR-uudised-Indrek_Kiisler', 'UT-uudised-Albert', 'ERR-uudised-Meelis_Kompus', 'EKI-yksiklaused-Meelis', 'UT-uudised-Vesta'] # list of speaker ids (last elements of each metadata line)
-  train_dir: '/gpfs/space/home/zuppur/cotatron/data/preprocessed_v2/'     # root path of data. The first elements of each metadata lines should be a relative path with respect to this.
-  train_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/estonian_metadata.txt' # path of training data's metadata
-  val_dir: '/gpfs/space/home/zuppur/cotatron/data/preprocessed_v2/'       # same as train_dir.
-  val_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/estonian_metadata.txt' # path of validation data's metadata
+  speakers: ['6147', '7178', '5652', '7190', '4640', '6181', '40', '1578', '2092', '1069', '5678', '8238', '7226', '1088', '6209', '4160', '8770', '5703', '4680', '587', '78', '3664', '83', '87', '2136', '1116', '4195', '7278', '7794', '118', '5750', '7800', '8312', '125', '6272', '8324', '2182', '8838', '7302', '2196', '669', '6818', '3240', '3242', '4267', '5808', '4788', '6836', '696', '3259', '6848', '196', '7367', '200', '4297', '5322', '730', '5339', '1246', '6367', '8419', '7402', '1263', '2289', '6385', '250', '254', '4362', '6415', '5393', '3857', '8468', '2836', '7447', '2843', '6437', '3879', '4397', '1841', '6454', '4406', '831', '1867', '6476', '7505', '7511', '2911', '3436', '2416', '8051', '374', '887', '6529', '6019', '2436', '2952', '3982', '3983', '7059', '405', '8088', '7067', '3486', '5022', '8609', '8098', '7078', '1963', '8108', '6064', '1970', '4018', '8629', '8123', '6078', '446', '6081', '3526', '460', '4051', '1502', '5104', '4088'] # list of speaker ids (last elements of each metadata line)
+  train_dir: '/gpfs/space/home/zuppur/cotatron/data/'     # root path of data. The first elements of each metadata lines should be a relative path with respect to this.
+  train_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_shorterthan10s_atleast5min_train_filelist_22k.txt' # path of training data's metadata
+  val_dir: '/gpfs/space/home/zuppur/cotatron/data/'       # same as train_dir.
+  val_meta: '/gpfs/space/home/zuppur/cotatron/datasets/metadata/libritts_train_clean_100_audiopath_text_sid_atleast5min_val_filelist_22k.txt' # path of validation data's metadata
   cmudict_path: '/gpfs/space/home/zuppur/cotatron/datasets/cmudict-0.7b_fix.txt'  # path of cmudict-0.7b_fix.txt
 ###########################
 audio: # WARNING! This cannot be changed unlees you're planning to train the MelGAN vocoder by yourself.
