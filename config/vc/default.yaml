@@ -4,7 +4,7 @@ train:
   adam:
     lr: 0.0003
     weight_decay: 0.000001
-  cotatron_path: 'chkpt/cota/cotatron_trained/6bbb33eepoch=4.ckpt'  # path of pretrained cotatron model for VC training
+  cotatron_path: 'chkpt/cota/cotatron_trained/df91345epoch=42.ckpt'  # path of pretrained cotatron model for VC training
 ###########################
 log:
   chkpt_dir: 'chkpt/vc'
