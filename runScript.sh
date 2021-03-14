@@ -13,7 +13,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=32G
 
-#SBATCH -t 60:00:00
+#SBATCH -t 24:00:00
 
 #These commands are run on one of the nodes allocated to the job (batch node)
 
@@ -23,4 +23,4 @@ source /storage/software/python-3.6.3/miniconda3/etc/profile.d/conda.sh
 
 conda activate cotatron_env
 
-python cotatron_trainer.py -c config/global/default.yaml config/cota/default.yaml -g 1 -n cotatron_trained -p chkpt/cota/cotatron_trained/6bbb33eepoch=4.ckpt
+python cotatron_trainer.py -c config/global/default.yaml config/cota/default.yaml -g 1 -n cotatron_trained -p chkpt/cota/cotatron_trained/05e2f42epoch=69.ckpt
