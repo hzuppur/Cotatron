@@ -10,7 +10,7 @@ docs/audio/audio_formatter.ipynb
 
 # logs, checkpoints
 chkpt/
-logs/
+#logs/
 
 # just a temporary folder
 temp/
