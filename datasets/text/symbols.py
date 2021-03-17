@@ -32,4 +32,4 @@ _cmu_characters = ['@' + s for s in _cmu_characters]
 # Export all symbols:
 eng_symbols = [_pad, _eos] + list(_eng_characters) + list(_punc) + _arpabet + [_sos]
 cmu_symbols = [_pad, _eos] + list(_eng_characters) + list(_punc) + _cmu_characters + [_sos]
-est_symbols = [_pad, _eos] + list(_eng_characters) + list(_punc) + [_sos]
+est_symbols = [_pad, _eos] + list(_est_characters) + list(_punc) + [_sos]
