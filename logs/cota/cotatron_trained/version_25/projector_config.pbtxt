@@ -1,0 +1,75 @@
+embeddings {
+  tensor_name: "character_embedding:00000"
+  metadata_path: "00000/character_embedding/metadata.tsv"
+  tensor_path: "00000/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:01115"
+  metadata_path: "01115/character_embedding/metadata.tsv"
+  tensor_path: "01115/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:02231"
+  metadata_path: "02231/character_embedding/metadata.tsv"
+  tensor_path: "02231/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:03347"
+  metadata_path: "03347/character_embedding/metadata.tsv"
+  tensor_path: "03347/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:04463"
+  metadata_path: "04463/character_embedding/metadata.tsv"
+  tensor_path: "04463/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:05579"
+  metadata_path: "05579/character_embedding/metadata.tsv"
+  tensor_path: "05579/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:06695"
+  metadata_path: "06695/character_embedding/metadata.tsv"
+  tensor_path: "06695/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:07811"
+  metadata_path: "07811/character_embedding/metadata.tsv"
+  tensor_path: "07811/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:08927"
+  metadata_path: "08927/character_embedding/metadata.tsv"
+  tensor_path: "08927/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:10043"
+  metadata_path: "10043/character_embedding/metadata.tsv"
+  tensor_path: "10043/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:11159"
+  metadata_path: "11159/character_embedding/metadata.tsv"
+  tensor_path: "11159/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:12275"
+  metadata_path: "12275/character_embedding/metadata.tsv"
+  tensor_path: "12275/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:13391"
+  metadata_path: "13391/character_embedding/metadata.tsv"
+  tensor_path: "13391/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:14507"
+  metadata_path: "14507/character_embedding/metadata.tsv"
+  tensor_path: "14507/character_embedding/tensors.tsv"
+}
+embeddings {
+  tensor_name: "character_embedding:15623"
+  metadata_path: "15623/character_embedding/metadata.tsv"
+  tensor_path: "15623/character_embedding/tensors.tsv"
+}

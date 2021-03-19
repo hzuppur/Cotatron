@@ -1,0 +1,8 @@
+key,value
+config,"['config/global/default.yaml', 'config/cota/default.yaml']"
+gpus,1
+name,cotatron_trained
+checkpoint_path,
+save_top_k,-1
+fast_dev_run,False
+val_epoch,1
