@@ -1,8 +1,7 @@
 #!/bin/bash
 
 #SBATCH --partition=gpu
-#SBATCH --gres=gpu:tesla:2
-#SBATCH --exclude=falcon1,falcon2,falcon3  
+#SBATCH --gres=gpu:tesla:1
 
 #SBATCH -J cotatron_vc
 
@@ -23,4 +22,4 @@ source /storage/software/python-3.6.3/miniconda3/etc/profile.d/conda.sh
 
 conda activate cotatron_env
 
-python synthesizer_trainer.py -c config/global/default.yaml config/vc/default.yaml -g 1 -n cotatron_trained_vc -p chkpt/vc/cotatron_trained_vc/05e2f42epoch=95.ckpt
+python synthesizer_trainer.py -c config/global/default.yaml config/vc/default.yaml -g 0 -n cotatron_trained_vc

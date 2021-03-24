@@ -122,3 +122,6 @@ venv.bak/
 
 # datasets
 data
+
+# Dont know what this is, but when i remove it, it appears again
+.core.114504.swp
