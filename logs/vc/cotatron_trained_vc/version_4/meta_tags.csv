@@ -1,8 +1,0 @@
-key,value
-config,"['config/global/default.yaml', 'config/vc/default.yaml']"
-gpus,1
-name,cotatron_trained_vc
-checkpoint_path,
-save_top_k,-1
-fast_dev_run,False
-val_epoch,1
