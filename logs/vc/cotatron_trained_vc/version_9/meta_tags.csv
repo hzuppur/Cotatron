@@ -1,0 +1,8 @@
+key,value
+config,"['config/global/default.yaml', 'config/vc/default.yaml']"
+gpus,0
+name,cotatron_trained_vc
+checkpoint_path,chkpt/vc/cotatron_trained_vc/3ba23aeepoch=25.ckpt
+save_top_k,-1
+fast_dev_run,False
+val_epoch,1
