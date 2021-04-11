@@ -1,0 +1,2 @@
+test_voice_male.wav|Ma tänan siiralt kõiki koalitsioonipartnereid ministreid ja teenistujaid|test_voice_male
+test_voice_female.wav|Mul on südamest kahju et ei saa teiega kohtuda silmast silma|test_voice_female
